@@ -1,0 +1,460 @@
+2021-05-20 21:53:42 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner -
+				SpringJUnit4ClassRunner constructor called with [class com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:42 [main] DEBUG o.s.test.context.BootstrapUtils -
+				Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2021-05-20 21:53:42 [main] DEBUG o.s.test.context.BootstrapUtils -
+				Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2021-05-20 21:53:42 [main] DEBUG o.s.test.context.BootstrapUtils -
+				Instantiating TestContextBootstrapper for test class [com.stackroute.keepnote.test.log.LoggerTest] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+2021-05-20 21:53:42 [main] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader -
+				Delegating to AnnotationConfigWebContextLoader to process context configuration [ContextConfigurationAttributes@7674f035 declaringClass = 'com.stackroute.keepnote.test.log.LoggerTest', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2021-05-20 21:53:42 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils -
+				Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:42 [main] DEBUG o.s.t.c.w.WebTestContextBootstrapper -
+				@TestExecutionListeners is not present for class [com.stackroute.keepnote.test.log.LoggerTest]: using defaults.
+2021-05-20 21:53:42 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-05-20 21:53:42 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68c9d179, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@d554c5f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2dfaea86, org.springframework.test.context.support.DirtiesContextTestExecutionListener@15888343, org.springframework.test.context.transaction.TransactionalTestExecutionListener@33ecda92, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14fc5f04]
+2021-05-20 21:53:42 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:42 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:42 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:42 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:42 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:42 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:42 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:42 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:42 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener -
+				Before test class: context [DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2021-05-20 21:53:42 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:42 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:42 [main] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader -
+				Delegating to AnnotationConfigWebContextLoader to load context from [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]].
+2021-05-20 21:53:42 [main] DEBUG o.s.t.c.w.AbstractGenericWebContextLoader -
+				Loading WebApplicationContext for merged context configuration [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]].
+2021-05-20 21:53:42 [main] DEBUG o.s.w.c.s.StandardServletEnvironment -
+				Activating profiles []
+2021-05-20 21:53:42 [main] DEBUG o.s.t.c.w.AnnotationConfigWebContextLoader -
+				Registering annotated classes: {class com.stackroute.keepnote.config.ApplicationContextConfig}
+2021-05-20 21:53:42 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext -
+				Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7fd7a283
+2021-05-20 21:53:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-05-20 21:53:42 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Cyclopes\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HCL\Spring\keepnote-step4-boilerplate\target\classes\com\stackroute\keepnote\aspect\LoggingAspect.class]
+2021-05-20 21:53:42 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Cyclopes\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HCL\Spring\keepnote-step4-boilerplate\target\classes\com\stackroute\keepnote\controller\CategoryController.class]
+2021-05-20 21:53:42 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Cyclopes\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HCL\Spring\keepnote-step4-boilerplate\target\classes\com\stackroute\keepnote\controller\NoteController.class]
+2021-05-20 21:53:42 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Cyclopes\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HCL\Spring\keepnote-step4-boilerplate\target\classes\com\stackroute\keepnote\controller\ReminderController.class]
+2021-05-20 21:53:42 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Cyclopes\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HCL\Spring\keepnote-step4-boilerplate\target\classes\com\stackroute\keepnote\controller\UserAuthenticationController.class]
+2021-05-20 21:53:42 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Cyclopes\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HCL\Spring\keepnote-step4-boilerplate\target\classes\com\stackroute\keepnote\controller\UserController.class]
+2021-05-20 21:53:42 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Cyclopes\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HCL\Spring\keepnote-step4-boilerplate\target\classes\com\stackroute\keepnote\dao\CategoryDAOImpl.class]
+2021-05-20 21:53:42 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Cyclopes\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HCL\Spring\keepnote-step4-boilerplate\target\classes\com\stackroute\keepnote\dao\NoteDAOImpl.class]
+2021-05-20 21:53:42 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Cyclopes\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HCL\Spring\keepnote-step4-boilerplate\target\classes\com\stackroute\keepnote\dao\ReminderDAOImpl.class]
+2021-05-20 21:53:42 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Cyclopes\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HCL\Spring\keepnote-step4-boilerplate\target\classes\com\stackroute\keepnote\dao\UserDaoImpl.class]
+2021-05-20 21:53:42 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Cyclopes\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HCL\Spring\keepnote-step4-boilerplate\target\classes\com\stackroute\keepnote\service\CategoryServiceImpl.class]
+2021-05-20 21:53:42 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Cyclopes\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HCL\Spring\keepnote-step4-boilerplate\target\classes\com\stackroute\keepnote\service\NoteServiceImpl.class]
+2021-05-20 21:53:42 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Cyclopes\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HCL\Spring\keepnote-step4-boilerplate\target\classes\com\stackroute\keepnote\service\ReminderServiceImpl.class]
+2021-05-20 21:53:42 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [C:\Users\Cyclopes\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HCL\Spring\keepnote-step4-boilerplate\target\classes\com\stackroute\keepnote\service\UserServiceImpl.class]
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-05-20 21:53:43 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@33617539]
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'applicationContextConfig'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'transactionAttributeSource'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'transactionInterceptor'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'loggingAspect'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'categoryController'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'categoryServiceImpl'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'categoryDAOImpl'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'sessionFactory'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'dataSource'
+2021-05-20 21:53:43 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'sessionFactory' via factory method to bean named 'dataSource'
+2021-05-20 21:53:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'categoryDAOImpl' via constructor to bean named 'sessionFactory'
+2021-05-20 21:53:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'categoryServiceImpl' via constructor to bean named 'categoryDAOImpl'
+2021-05-20 21:53:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'categoryController' via constructor to bean named 'categoryServiceImpl'
+2021-05-20 21:53:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'noteController'
+2021-05-20 21:53:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'noteServiceImpl'
+2021-05-20 21:53:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'noteDAOImpl'
+2021-05-20 21:53:46 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'noteDAOImpl' via constructor to bean named 'sessionFactory'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'reminderDAOImpl'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'reminderDAOImpl' via constructor to bean named 'sessionFactory'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'noteServiceImpl' via constructor to bean named 'noteDAOImpl'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'noteServiceImpl' via constructor to bean named 'categoryDAOImpl'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'noteServiceImpl' via constructor to bean named 'reminderDAOImpl'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'noteController' via constructor to bean named 'noteServiceImpl'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'reminderController'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'reminderServiceImpl'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'reminderController' via constructor to bean named 'reminderServiceImpl'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'userAuthenticationController'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'userServiceImpl'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'userDaoImpl'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'userDaoImpl' via constructor to bean named 'sessionFactory'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'userServiceImpl' via constructor to bean named 'userDaoImpl'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'userAuthenticationController' via constructor to bean named 'userServiceImpl'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'userController'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'userController' via constructor to bean named 'userServiceImpl'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcConversionService'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking for request mappings in application context: org.springframework.web.context.support.GenericWebApplicationContext@7fd7a283, started on Thu May 20 21:53:42 IST 2021
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				4 request handler methods found on class com.stackroute.keepnote.controller.CategoryController: {public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.CategoryController.updateCategory(com.stackroute.keepnote.model.Category,javax.servlet.http.HttpSession)={[/category/{id}],methods=[PUT]}, public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.CategoryController.createCategory(com.stackroute.keepnote.model.Category,javax.servlet.http.HttpSession)={[/category],methods=[POST]}, public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.CategoryController.deleteCategory(int,javax.servlet.http.HttpSession)={[/category/{id}],methods=[DELETE]}, public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.CategoryController.getCategoryById(javax.servlet.http.HttpSession)={[/category],methods=[GET]}}
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.updateCategory(com.stackroute.keepnote.model.Category,javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.createCategory(com.stackroute.keepnote.model.Category,javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.deleteCategory(int,javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.getCategoryById(javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				4 request handler methods found on class com.stackroute.keepnote.controller.NoteController: {public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.NoteController.deleteNote(int,javax.servlet.http.HttpSession)={[/note/{id}],methods=[DELETE]}, public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.NoteController.createNote(com.stackroute.keepnote.model.Note,javax.servlet.http.HttpSession)={[/note],methods=[POST]}, public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.NoteController.updateNote(com.stackroute.keepnote.model.Note,javax.servlet.http.HttpSession)={[/note/{id}],methods=[PUT]}, public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.NoteController.getNotesByUserId(javax.servlet.http.HttpSession)={[/note],methods=[GET]}}
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/note/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.NoteController.deleteNote(int,javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/note],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.NoteController.createNote(com.stackroute.keepnote.model.Note,javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/note/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.NoteController.updateNote(com.stackroute.keepnote.model.Note,javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/note],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.NoteController.getNotesByUserId(javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				5 request handler methods found on class com.stackroute.keepnote.controller.ReminderController: {public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.ReminderController.update(com.stackroute.keepnote.model.Reminder,javax.servlet.http.HttpSession)={[/reminder/{id}],methods=[PUT]}, public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.ReminderController.addReminder(com.stackroute.keepnote.model.Reminder,javax.servlet.http.HttpSession)={[/reminder],methods=[POST]}, public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.ReminderController.getReminderById(int,javax.servlet.http.HttpSession)={[/reminder/{id}],methods=[GET]}, public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.ReminderController.getReminderById(javax.servlet.http.HttpSession)={[/reminder],methods=[GET]}, public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.ReminderController.deleteReminder(int,javax.servlet.http.HttpSession)={[/reminder/{id}],methods=[DELETE]}}
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/reminder/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.ReminderController.update(com.stackroute.keepnote.model.Reminder,javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/reminder],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.ReminderController.addReminder(com.stackroute.keepnote.model.Reminder,javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/reminder/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.ReminderController.getReminderById(int,javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/reminder],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.ReminderController.getReminderById(javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/reminder/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.ReminderController.deleteReminder(int,javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				2 request handler methods found on class com.stackroute.keepnote.controller.UserAuthenticationController: {public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.UserAuthenticationController.logout(javax.servlet.http.HttpSession)={[/logout],methods=[GET]}, public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.UserAuthenticationController.userLogin(com.stackroute.keepnote.model.User,javax.servlet.http.HttpSession)={[/login],methods=[POST]}}
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/logout],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserAuthenticationController.logout(javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserAuthenticationController.userLogin(com.stackroute.keepnote.model.User,javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				4 request handler methods found on class com.stackroute.keepnote.controller.UserController: {public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.UserController.deleteUser(java.lang.String,javax.servlet.http.HttpSession)={[/user/{id}],methods=[DELETE]}, public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.UserController.updateUser(com.stackroute.keepnote.model.User,javax.servlet.http.HttpSession)={[/user/{id}],methods=[PUT]}, public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.UserController.getUser(java.lang.String,com.stackroute.keepnote.model.User,javax.servlet.http.HttpSession)={[/user/{id}],methods=[GET]}, public org.springframework.http.ResponseEntity com.stackroute.keepnote.controller.UserController.registerUser(com.stackroute.keepnote.model.User)={[/user/register],methods=[POST]}}
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/user/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.deleteUser(java.lang.String,javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/user/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.updateUser(com.stackroute.keepnote.model.User,javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/user/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.getUser(java.lang.String,com.stackroute.keepnote.model.User,javax.servlet.http.HttpSession)
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/user/register],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.registerUser(com.stackroute.keepnote.model.User)
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPathMatcher'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Looking for URL mappings in application context: org.springframework.web.context.support.GenericWebApplicationContext@7fd7a283, started on Thu May 20 21:53:42 IST 2021
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'applicationContextConfig': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'loggingAspect': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'categoryController': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'noteController': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'reminderController': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'userAuthenticationController': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'userController': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'categoryDAOImpl': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'noteDAOImpl': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'reminderDAOImpl': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'userDaoImpl': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'categoryServiceImpl': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'noteServiceImpl': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'reminderServiceImpl': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'userServiceImpl': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'requestMappingHandlerMapping': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'mvcPathMatcher': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'mvcUrlPathHelper': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'viewControllerHandlerMapping': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'beanNameHandlerMapping': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'resourceHandlerMapping': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'mvcResourceUrlProvider': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'defaultServletHandlerMapping': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'requestMappingHandlerAdapter': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'mvcConversionService': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'mvcValidator': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'httpRequestHandlerAdapter': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'simpleControllerHandlerAdapter': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'handlerExceptionResolver': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'mvcViewResolver': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'mvcHandlerMappingIntrospector': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'org.springframework.transaction.config.internalTransactionAdvisor': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'transactionAttributeSource': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'transactionInterceptor': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'org.springframework.transaction.config.internalTransactionalEventListenerFactory': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'dataSource': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'sessionFactory': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'transactionManager': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'org.springframework.aop.config.internalAutoProxyCreator': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'environment': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'systemProperties': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'systemEnvironment': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'applicationStartup': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'servletContext': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'contextParameters': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'contextAttributes': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'messageSource': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping -
+				Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'resourceHandlerMapping'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcValidator'
+2021-05-20 21:53:47 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7fd7a283, started on Thu May 20 21:53:42 IST 2021
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerExceptionResolver'
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				Looking for exception mappings: org.springframework.web.context.support.GenericWebApplicationContext@7fd7a283, started on Thu May 20 21:53:42 IST 2021
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcViewResolver'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'transactionManager'
+2021-05-20 21:53:47 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'transactionManager' via factory method to bean named 'sessionFactory'
+2021-05-20 21:53:47 [main] DEBUG o.s.o.h.HibernateTransactionManager -
+				Using DataSource [org.apache.commons.dbcp.BasicDataSource@5149f008] of Hibernate SessionFactory for HibernateTransactionManager
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.resource.ResourceUrlProvider -
+				Looking for resource handler mappings
+2021-05-20 21:53:47 [main] DEBUG o.s.w.s.resource.ResourceUrlProvider -
+				No resource handling mappings found
+2021-05-20 21:53:47 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Storing ApplicationContext in cache under key [[WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]]
+2021-05-20 21:53:47 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@5e5a8718 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2021-05-20 21:53:47 [main] DEBUG o.s.t.c.w.ServletTestExecutionListener -
+				Setting up MockHttpServletRequest, MockHttpServletResponse, ServletWebRequest, and RequestContextHolder for test context [DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@4438938e, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]].
+2021-05-20 21:53:47 [main] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener -
+				Performing dependency injection for test context [[DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@4438938e, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]].
+2021-05-20 21:53:47 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]]
+2021-05-20 21:53:47 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@5e5a8718 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
+2021-05-20 21:53:47 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener -
+				Before test method: context [DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@4438938e, testMethod = logggedTheMessagesInFileOrNotTestCase@LoggerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener -
+				After test method: context [DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@4438938e, testMethod = logggedTheMessagesInFileOrNotTestCase@LoggerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.w.ServletTestExecutionListener -
+				Resetting RequestContextHolder for test context [DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@4438938e, testMethod = logggedTheMessagesInFileOrNotTestCase@LoggerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]].
+2021-05-20 21:53:48 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:48 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]]
+2021-05-20 21:53:48 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@5e5a8718 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1]
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.w.ServletTestExecutionListener -
+				Setting up MockHttpServletRequest, MockHttpServletResponse, ServletWebRequest, and RequestContextHolder for test context [DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@59a09be, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.support.DependencyInjectionTestExecutionListener.reinjectDependencies' -> true]].
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener -
+				Performing dependency injection for test context [[DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@59a09be, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.support.DependencyInjectionTestExecutionListener.reinjectDependencies' -> true]]].
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]]
+2021-05-20 21:53:48 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@5e5a8718 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1]
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener -
+				Before test method: context [DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@59a09be, testMethod = logFileGeneratedOrNotTestCase@LoggerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener -
+				After test method: context [DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@59a09be, testMethod = logFileGeneratedOrNotTestCase@LoggerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.w.ServletTestExecutionListener -
+				Resetting RequestContextHolder for test context [DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@59a09be, testMethod = logFileGeneratedOrNotTestCase@LoggerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]].
+2021-05-20 21:53:48 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:48 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.stackroute.keepnote.test.log.LoggerTest]
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]]
+2021-05-20 21:53:48 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@5e5a8718 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.w.ServletTestExecutionListener -
+				Setting up MockHttpServletRequest, MockHttpServletResponse, ServletWebRequest, and RequestContextHolder for test context [DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@790ac3e0, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.support.DependencyInjectionTestExecutionListener.reinjectDependencies' -> true]].
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener -
+				Performing dependency injection for test context [[DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@790ac3e0, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.support.DependencyInjectionTestExecutionListener.reinjectDependencies' -> true]]].
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]]
+2021-05-20 21:53:48 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@5e5a8718 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener -
+				Before test method: context [DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@790ac3e0, testMethod = logBackXMLFileCreatedOrNotTestCase@LoggerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener -
+				After test method: context [DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@790ac3e0, testMethod = logBackXMLFileCreatedOrNotTestCase@LoggerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.w.ServletTestExecutionListener -
+				Resetting RequestContextHolder for test context [DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = com.stackroute.keepnote.test.log.LoggerTest@790ac3e0, testMethod = logBackXMLFileCreatedOrNotTestCase@LoggerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]].
+2021-05-20 21:53:48 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener -
+				After test class: context [DefaultTestContext@7dc19a70 testClass = LoggerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@508dec2b testClass = LoggerTest, locations = '{}', classes = '{class com.stackroute.keepnote.config.ApplicationContextConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@5524cca1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map['org.springframework.test.context.support.DependencyInjectionTestExecutionListener.reinjectDependencies' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+2021-05-20 21:53:48 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext -
+				Closing org.springframework.web.context.support.GenericWebApplicationContext@7fd7a283, started on Thu May 20 21:53:42 IST 2021
